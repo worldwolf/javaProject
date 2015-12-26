@@ -11,7 +11,7 @@ public class ComputerKey {
 		Scanner sc = new Scanner(process.getInputStream());
 		String property = sc.next();
 		String serial = sc.next();
-		System.out.println(property + ": " + serial);
+		System.out.println("property:"+property + ",serial: " + serial);
 		System.out.println(Long.MAX_VALUE);
 	}
 }
